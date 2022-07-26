@@ -61,8 +61,6 @@ class Dowloader:
                                 print("THANK")
 
 
-
-
     def dowload_progress(self, stream, chunk, bytes_remaining):
 
         bytes_downloaded = stream.filesize - bytes_remaining
