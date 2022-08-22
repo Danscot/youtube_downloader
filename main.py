@@ -1,8 +1,11 @@
 
 from dowloader import *
 
-dowload = Dowloader()
+dowload = Downloader()
 
 dowload.__int__()
 
 dowload.downloading()
+
+
+
